@@ -1,4 +1,4 @@
-module.exports = function decapitalize(str='', restToLoweropt = false){
+module.exports = function decapitalize(str=''){
   
         return str.charAt(0).toLowerCase() + str.slice(1)  
 

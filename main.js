@@ -3,6 +3,7 @@ const upperCase = require('./ex02')
 const length = require('./ex03')
 const capitalize = require('./ex04')
 const decapitalize = require('./ex05')
+const kebab = require('./ex06')
 
 console.log('lowerCase:')
 console.log(lowerCase('Chopper'))
@@ -17,8 +18,13 @@ console.log(length('Chopper'))
 
 console.log('capitalize:')
 console.log(capitalize('one Code'))
-console.log(capitalize('One CODE'))
+console.log(capitalize('One CODE', true))
 
 console.log('decapitalize:')
 console.log(decapitalize('Woonan'))
 console.log(decapitalize('El Drago'))
+
+console.log('kebab:')
+console.log(kebab('love one code'))
+console.log(kebab('LoveOneCode'))
+console.log(kebab('-Love-One-Code'))
